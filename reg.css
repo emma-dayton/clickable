@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	vertical-align: 
+}
+
+#wrapper{
+	width: 1100px;
+	height: 1200px;
+	border: solid 1px black;
+	background-color: grey;
+}
+
+.navbar{
+	display: inline-block;
+	width: 100%;
+	border: solid 1px orange;
+	color: white;
+	background-color: black;
+}
+
+.navbar h2{
+	display: inline-block;
+	width: 200px;
+	margin: 15px 0px 5px 10px;
+}
+
+.navbar ul{
+	display: inline-block;
+	width: 450px;
+	margin-right: 20px;
+}
+
+.navbar li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 2px;
+	font-size: 14px;
+}
+
+.navbar ul h2{
+	display: inline-block;
+	width: 3px;
+	font-weight: 100;
+	color: grey;
+	margin: 0px 5px;
+}
+.navbar a{
+	text-decoration: none;
+	color: white;
+}
+
+.social{
+	display: inline-block;
+	height: 40px;
+	padding-right: 5px;
+}
+
+.social img{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	vertical-align: text-top;
+}
+
+.navbar input{
+	display: inline-block;
+	padding: 5px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.navbar p{
+	font-size: 14px;
+	display: inline-block;
+}
+
+.reg_card{
+	display: inline-block;
+	background-color: #dedede;
+	width: 70%;
+	height: 650px;
+	margin: 5% 15%;
+}
+
+.reg_card h2{
+	margin: 50px 50px 0px;
+}
+
+.reg_card input{
+	display: inline-block;
+	font-size: 20px;
+	width: 350px;
+	padding: 5px;
+	margin: 0px 50px;
+}
+
+.reg_card p{
+	display: inline-block;
+	width: 250px;
+	text-align: justify;
+
+	margin: 20px 50px 0px;
+}
+
+.reg_card button{
+	display: inline;
+	width: 200px;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 10px 50px;
+
+}
+
+#terms{
+	display: inline-block;
+	font-size: 10px;
+	text-align: left;
+	width: 300px;
+}
+
+#terms a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+#terms input{
+	display: inline-block;
+	margin: 2px;
+	width: 10px;
+}
+
+.reg_card img{
+	display: inline;
+	width: 400px;
+	padding: 0px 150px;
+	margin: 20px 50px
+
+}
