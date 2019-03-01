@@ -9,11 +9,13 @@
 	width: 1100px;
 	height: 1200px;
 	border: solid 1px black;
+	background-color: #5d5d5d2b;
 }
 
 a{
 	text-decoration: none;
 	color: black;
+	font-weight: 700;
 }
 
 .navbar{
@@ -78,3 +80,30 @@ a{
 	display: inline-block;
 }
 
+.review{
+	display: inline-block;
+	width: 90%;
+	padding: 10px 30px;
+}
+
+.review img{
+	display: inline-block;
+	width: 20%;
+	height: 300px;
+	object-fit: contain;	
+}
+
+.headline{
+	display: inline-block;
+	width: 75%;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.headline span{
+	color: #d8881e;
+}
+
+.review p{
+	margin-top: 10px;
+}

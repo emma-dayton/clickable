@@ -9,12 +9,15 @@
 	width: 1100px;
 	height: 1200px;
 	border: solid 1px black;
+	background-color: #5d5d5d2b;
 }
 
 a{
 	text-decoration: none;
 	color: black;
+	font-weight: 700;
 }
+
 
 .navbar{
 	display: inline-block;
@@ -80,9 +83,7 @@ a{
 
 #main_page{
 	display: inline-block;
-	width: 100%;
-	background-color: #5d5d5d2b;
-	color: #232323e6;
+	width: 100%;	color: #232323e6;
 	padding-top: 20px;
 }
 
@@ -92,6 +93,8 @@ a{
 	width: 33%;
 	margin-left: 50px;
 	height: 500px;
+	border-right: solid .5px grey;
+	padding-right: 30px;
 }
 
 .feature1 img{
@@ -133,7 +136,6 @@ a{
 	height: 150px;
 	margin-left: 30px;
 	vertical-align: top;
-	border: solid 1px black;
 }
 
 .feature2 img{
@@ -158,19 +160,49 @@ a{
 	display: inline;
 }
 
-.news_box{
+.now_playing{
 	display: inline-block;
 	width: 100%;
 	margin-left: 30px;
-	border: solid 1px black;
+	border-top: solid .5px grey;
 	padding: 10px 0px 10px 0px;
+	margin-top: 20px;
 }
 
-.news_box .text_box{
+.now_playing h2{
+	margin-left: 2%;
+}
+
+.now_playing .text_box{
 	display: inline-block;
 	width: 45%;
+	margin: 1% 2%;
 }
 
-.news_box h5{
+.now_playing h5{
 	margin: 5px 5px 5px 75%;
+}
+
+.classics{
+	display: inline-block;
+	width: 90%;
+	margin: 5%;
+	border-top: solid .5px grey;
+	padding-top: 30px;
+}
+
+
+
+.film_square{
+	display: inline-block;
+	width: 30%;
+	margin: 10px 5px;
+	padding: 0px 5px;
+}
+
+.film_square img{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	object-fit: contain;
 }
